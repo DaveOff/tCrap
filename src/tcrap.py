@@ -6,13 +6,13 @@ from time import sleep
 class tCrap:
     @property
     def firstPack(self):
-        return self.firstPack
+        return self._firstPack
 
     @firstPack.setter
     def firstPack(self, value):
         if type(value) is not str :
             self.db.updateSetting((json.dumps(value), 'last_tweet_id'))
-        self.firstPack = value
+        self._firstPack = value
 
     def __init__(self):
         self.token = ''.join(random.choices(string.ascii_uppercase + string.digits, k=32))
