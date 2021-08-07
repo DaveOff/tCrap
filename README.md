@@ -9,7 +9,7 @@ as a database save via `pyodbc`, `sqlite3`, or whatever you want really.
 
 <div align="center">
   
-  Checkout [tCrap](https://0mb.io/tcrap) Website
+  [tCrap](https://0mb.io/tcrap) Finder
   
   ![tCrap](https://raw.githubusercontent.com/DaveOff/tCrap/main/tcrap.gif)
 
