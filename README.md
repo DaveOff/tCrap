@@ -2,7 +2,7 @@
 
 - No API rate limits. No restrictions. Extremely fast.
 - "Cursor" support for scraping multiple pages
-- Feel free to replace the DB with any other `io` option you want, such
+- Feel free to replace the DB with any other `io` option you want, such.
 as a database save via `pyodbc`, `sqlite3`, or whatever you want really.
 
 ---
